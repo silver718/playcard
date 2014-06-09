@@ -19,6 +19,7 @@
 		FDD779C61945ABE4009B5910 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD779AE1945ABE4009B5910 /* UIKit.framework */; };
 		FDD779CE1945ABE4009B5910 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDD779CC1945ABE4009B5910 /* InfoPlist.strings */; };
 		FDD779D01945ABE4009B5910 /* playcardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD779CF1945ABE4009B5910 /* playcardTests.m */; };
+		FDD779DB1945AC60009B5910 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD779DA1945AC60009B5910 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		FDD779CB1945ABE4009B5910 /* playcardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "playcardTests-Info.plist"; sourceTree = "<group>"; };
 		FDD779CD1945ABE4009B5910 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FDD779CF1945ABE4009B5910 /* playcardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playcardTests.m; sourceTree = "<group>"; };
+		FDD779D91945AC60009B5910 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		FDD779DA1945AC60009B5910 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		FDD779B01945ABE4009B5910 /* playcard */ = {
 			isa = PBXGroup;
 			children = (
+				FDD779D91945AC60009B5910 /* Card.h */,
+				FDD779DA1945AC60009B5910 /* Card.m */,
 				FDD779B91945ABE4009B5910 /* AppDelegate.h */,
 				FDD779BA1945ABE4009B5910 /* AppDelegate.m */,
 				FDD779BC1945ABE4009B5910 /* Images.xcassets */,
@@ -241,6 +246,7 @@
 			files = (
 				FDD779BB1945ABE4009B5910 /* AppDelegate.m in Sources */,
 				FDD779B71945ABE4009B5910 /* main.m in Sources */,
+				FDD779DB1945AC60009B5910 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
