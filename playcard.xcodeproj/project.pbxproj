@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD8CD55F1948307200992566 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CD55E1948307200992566 /* Deck.m */; };
+		FD8CD5621948391B00992566 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CD5611948391B00992566 /* PlayingCard.m */; };
 		FDD779AB1945ABE4009B5910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD779AA1945ABE4009B5910 /* Foundation.framework */; };
 		FDD779AD1945ABE4009B5910 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD779AC1945ABE4009B5910 /* CoreGraphics.framework */; };
 		FDD779AF1945ABE4009B5910 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD779AE1945ABE4009B5910 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* Begin PBXFileReference section */
 		FD8CD55D1948307200992566 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		FD8CD55E1948307200992566 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		FD8CD5601948391B00992566 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		FD8CD5611948391B00992566 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		FDD779A71945ABE4009B5910 /* playcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD779AA1945ABE4009B5910 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FDD779AC1945ABE4009B5910 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 		FDD779B01945ABE4009B5910 /* playcard */ = {
 			isa = PBXGroup;
 			children = (
+				FD8CD5601948391B00992566 /* PlayingCard.h */,
+				FD8CD5611948391B00992566 /* PlayingCard.m */,
 				FD8CD55D1948307200992566 /* Deck.h */,
 				FD8CD55E1948307200992566 /* Deck.m */,
 				FDD779D91945AC60009B5910 /* Card.h */,
@@ -252,6 +257,7 @@
 				FD8CD55F1948307200992566 /* Deck.m in Sources */,
 				FDD779BB1945ABE4009B5910 /* AppDelegate.m in Sources */,
 				FDD779B71945ABE4009B5910 /* main.m in Sources */,
+				FD8CD5621948391B00992566 /* PlayingCard.m in Sources */,
 				FDD779DB1945AC60009B5910 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
