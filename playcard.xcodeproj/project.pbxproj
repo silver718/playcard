@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD8CD55F1948307200992566 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8CD55E1948307200992566 /* Deck.m */; };
 		FDD779AB1945ABE4009B5910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD779AA1945ABE4009B5910 /* Foundation.framework */; };
 		FDD779AD1945ABE4009B5910 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD779AC1945ABE4009B5910 /* CoreGraphics.framework */; };
 		FDD779AF1945ABE4009B5910 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD779AE1945ABE4009B5910 /* UIKit.framework */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD8CD55D1948307200992566 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		FD8CD55E1948307200992566 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		FDD779A71945ABE4009B5910 /* playcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD779AA1945ABE4009B5910 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FDD779AC1945ABE4009B5910 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -110,6 +113,8 @@
 		FDD779B01945ABE4009B5910 /* playcard */ = {
 			isa = PBXGroup;
 			children = (
+				FD8CD55D1948307200992566 /* Deck.h */,
+				FD8CD55E1948307200992566 /* Deck.m */,
 				FDD779D91945AC60009B5910 /* Card.h */,
 				FDD779DA1945AC60009B5910 /* Card.m */,
 				FDD779B91945ABE4009B5910 /* AppDelegate.h */,
@@ -244,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8CD55F1948307200992566 /* Deck.m in Sources */,
 				FDD779BB1945ABE4009B5910 /* AppDelegate.m in Sources */,
 				FDD779B71945ABE4009B5910 /* main.m in Sources */,
 				FDD779DB1945AC60009B5910 /* Card.m in Sources */,
@@ -447,6 +453,7 @@
 				FDD779D51945ABE4009B5910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDD779D61945ABE4009B5910 /* Build configuration list for PBXNativeTarget "playcardTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +462,7 @@
 				FDD779D81945ABE4009B5910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
